@@ -1,0 +1,40 @@
+<!-- <input
+  type="text"
+  name="searchItem"
+  [(ngModel)]="searchItem"
+  (keyup.enter)="passValue()"
+/> -->
+
+<div class="container">
+  <div class="text">
+    <span>Search & Find !</span>
+  </div>
+  <div class="image">
+    <img
+      src="https://eastasia1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fexperiontechnologies-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YvIp4ilX2EO-eyhF9Fnh8R4bjDz_5Y5HjSXrCzxC7dAM9VfsBvECTq_qnH2bkoP2%2Fitems%2F01ZKAVO6JTREOEUBPBOBH24LXVBYITC7PH%3Fversion%3DPublished&encodeFailures=1&ctag=%22c%3A%7B4A1C8933-E105-4F70-AE2E-F50E11317DE7%7D%2C1%22&srcWidth=&srcHeight=&width=1920&height=855&action=Access"
+      alt=""
+    />
+  </div>
+  <div class="input_container">
+    <i class="fas fa-2x fa-search"></i>
+    <input
+      matInput
+      placeholder="Search in Wiki"
+      type="text"
+      name="searchItem"
+      [(ngModel)]="searchItem"
+      (keyup.enter)="passValue()"
+    />
+  </div>
+  <button mat-raised-button color="primary" (click)="passValue()">
+    Search
+  </button>
+</div>
+
+<!-- <div *ngIf="receivedQuery !== null">
+  <div *ngFor="let item of receivedQuery">
+    <ul>
+      <li>{{ item.snippet }}</li>
+    </ul>
+  </div>
+</div> -->

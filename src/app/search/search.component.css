@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 229px;
+    left: -174px;
+}
+.image img{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 854px;
+  top: -170px;
+}
+.text{
+  position: absolute;
+    font-size: 56px;
+    color: white;
+    top: -62px;
+    left: 298px;
+    font-family: fantasy;
+}
+
+.container input{
+border: unset;
+    border-radius: 56px;
+    width: 374px;
+    height: 44px;
+    margin-right: 58px;
+    padding-left: 52px;
+}
+
+.container i{
+  color: #B1B1B1;
+  opacity: 0.5;
+  position: relative;
+    left: 41px;
+    top: 6px;
+}
+
+.container button{
+  width: 146px;
+    height: 44px;
+    border-radius: 120px;
+    background: blueviolet;
+}
+
+button:focus, input:focus{
+    outline: none;
+}
+
+input::placeholder{
+  color:#B1B1B1;
+
+}

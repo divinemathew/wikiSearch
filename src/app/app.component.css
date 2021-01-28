@@ -1,0 +1,12 @@
+.main_container{
+    background: rgb(157,47,168);
+    background: linear-gradient(61deg, rgba(157,47,168,1) 0%, rgba(171,45,152,1) 41%, rgba(77,52,191,1) 100%);
+    width: 100%;
+    height:1000px;
+  }
+
+
+  button{
+    background-color: black;
+    color: violet;
+  }

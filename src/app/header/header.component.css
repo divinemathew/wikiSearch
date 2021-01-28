@@ -1,0 +1,14 @@
+.navbar {
+  background-color: blueviolet;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+
+.navbar-text {
+  color: white;
+  color: white;
+    font-size: 23px;
+    font-family: cursive;
+}
